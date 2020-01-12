@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="82dp"
+        android:layout_height="113dp"
+        android:paddingTop="16dp"
+        android:focusable="true"
+        android:clickable="true"
+        android:onClick="openSite"
+        android:src="@drawable/logo_app" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="Sanjay Saraswat"
+        android:textColor="#FFFFFF"
+        android:clickable="true"
+        android:onClick="callU"
+        android:focusable="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+    <TextView
+        android:id="@+id/callUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="+919878935589"
+        android:clickable="true"
+        android:onClick="callU"
+        android:textColor="#FFFFFF"
+        android:focusable="true"/>
+
+
+</LinearLayout>
